@@ -1,6 +1,6 @@
 function sayHelloJS(){
 
-getElementById("js").innerHTML="Hello from Javascript";
+document.getElementById("js").innerHTML="Hello from Javascript";
 
 
 
