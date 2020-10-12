@@ -1,10 +1,10 @@
-#main{
+body{
     background-color:#FFFFFF;
     color:#666666;
     font-family: Helvetica ;
 }
 
-#header{
+header{
 
     background-color:#000033;
     color:#FFFFFF;
@@ -18,8 +18,7 @@
 
 a{
     text-decoration: none;
-    background-color:#90C7E3;
-    font-weight: bold;
+    
     
 }
 
@@ -44,4 +43,8 @@ footer{
 }
 li{
     list-style-image: url('marker.gif');
+}
+nav{
+    background-color:#90C7E3;
+    font-weight: bold;
 }
