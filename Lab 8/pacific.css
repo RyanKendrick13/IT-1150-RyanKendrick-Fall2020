@@ -42,7 +42,7 @@ nav ul li{
     padding-bottom:0.25em ;
     padding-right: 0.75em;
     padding-left:0.75em;
-    list-style-image:none;
+    l
 }
 #homehero{
     margin:0;
@@ -82,21 +82,21 @@ nav ul li{
     display:block;
     margin:0px;
     border-radius:2px solid #330000;
-    list-style-image:none;
+    
 
 }
 
 #homehero{
     background-image: none;
-    height:0;
+    height:0px;
 }
 #yurthero{
     background-image: none;
-    height:0;
+    height:0px;
 }
 #trailhero{
     background-image: none;
-    height:0;
+    height:0px;
 }
 #mobile{
     display:inline;
@@ -169,7 +169,7 @@ a{
     text-decoration: none;
 }
 nav ul li{
-    list-style-image:none;
+    list-style-type: none;
     margin:0px;
     padding-left:0px;
     font-size:1.2em;
