@@ -1,6 +1,6 @@
 
 header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
-@media screen and (min-width: 64em) {
+@media screen and (max-width: 64em) {
 body{
     margin:0;
     background-color: #FFFFFF;
@@ -42,6 +42,7 @@ nav ul li{
     padding-bottom:0.25em ;
     padding-right: 0.75em;
     padding-left:0.75em;
+    list-style-image:none;
 }
 #homehero{
     margin:0;
@@ -58,6 +59,7 @@ nav ul li{
 footer{
     margin-left:0;
 }
+
 
 }
 @media only screen and (max-width: 37.5em) {
@@ -80,8 +82,9 @@ nav ul li{
     display:block;
     margin:0px;
     border-radius:2px solid #330000;
-}
+    list-style-image:none;
 
+}
 
 #homehero{
     background-image: none;
@@ -167,8 +170,8 @@ a{
 }
 nav ul li{
     list-style-image:none;
-    margin:0;
-    padding-left:0;
+    margin:0px;
+    padding-left:0px;
     font-size:1.2em;
 }
 h1{
