@@ -72,6 +72,10 @@ main{
     font-size: 90%;
 
 }
+label { float: none;
+    text-align: left; }
+input[type="submit"]       { margin-left: 0; }
+
 h1{
     font-size: 2em;
 }
@@ -257,4 +261,19 @@ a:visited{
 }
 a:hover{
     color:#A52A2A;
+}
+label{
+    float: left;
+    display:block;
+    text-align: right;
+    width:120px;
+    padding-right: auto;
+}
+input textarea{
+    display:block;
+    margin-bottom: 20px;
+
+}
+#submit{
+    margin-left: 130px;
 }
