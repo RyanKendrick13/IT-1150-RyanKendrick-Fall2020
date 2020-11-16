@@ -73,13 +73,13 @@ function pencil(){
     alert("Each child gets"+" "+ eachkid);
 }
 function mean(){
-    25,47,98,46,52
-    var a=25;
-    var b=47;
-    var c=98;
-    var d=46;
-    var e =52;
-    var avg = (a+b+c+d+e)/5;
+   var number = [25,47,98,46,52];
+   var total = number.reduce(sum);
+   var avg = total/number.length;
+function sum (a,b){
+    return a+b;
+}
+    
     alert("The mean is :"+ " "+avg);
 }
 function greater(){
